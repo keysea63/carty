@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>newyin & keysea3</title>
+    <link rel="stylesheet" href="idk2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <title>newyin & keysea3</title>
+    <nav>
+        
+        <ul class="sidebar">
+            <li onclick=hidesidebar()><a href=""><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li><a href="character.html">characters</a></li>
+            <li><a href="news.html">news</a></li>
+            <li><a href="story.html">story</a></li>
+            <li><a href="https://youtube.com/@newyin-wu8yi?si=0NHo2ArToT8zJKzh">youtube</a></li>
+            <li><a href="https://www.wattpad.com/story/367640679-the-secret-that-i-didn%27t-tell-you">wattpad</a></li>
+        </ul>
+        <ul>
+            <li><a href="#">Homepage</a></li>
+            <li class="hideonemoblie"><a href="character.html">characters</a></li>
+            <li class="hideonemoblie"><a href="news.html">news</a></li>
+            <li class="hideonemoblie"><a href="story.html">story</a></li>
+            <li class="hideonemoblie"><a href="https://youtube.com/@newyin-wu8yi?si=0NHo2ArToT8zJKzh">youtube</a></li>
+            <li class="hideonemoblie"><a href="https://www.wattpad.com/story/367640679-the-secret-that-i-didn%27t-tell-you">wattpad</a></li>
+            <Li class="menu"    onclick=showsidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></Li>
+        </ul>
+    </nav><br>
+    <h1 style="margin-left: 2cm; color: rgb(226, 151, 60);">the secret that i never told you</h1><br>
+    <h2 style="margin-left: 1cm;"  >trailer</h2><br>
+    <video controls src="trailer.mp4" width="1000px" style="margin-left: 5cm;"></video>
+
+    <script>
+    function showsidebar(){
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'flex'
+    }
+    function hidesidebar(){
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'none'
+    }
+    </script>
+
+    
+</body>
+</html>

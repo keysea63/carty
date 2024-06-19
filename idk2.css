@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-height: 100vh;
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family:myfont;
+}
+nav{
+    background-color: rgb(67, 98, 89);
+    box-shadow: 3px 3px 5px rgba( rgb(8, 8, 54));
+}
+nav ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav li{
+    height: 50px;
+}
+nav a{
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: rgb(252, 252, 252);
+}
+nav a:hover{
+    background-color: rgb(15, 62, 48);
+}
+nav li:first-child{
+    margin-right: auto;
+}
+.sidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: rgb(44, 91, 77);
+    backdrop-filter: blur(100px);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.sidebar li{
+    width: 100%;
+}
+.sidebar a{
+    width: 100%;
+}
+.menu{
+    display: none;
+}
+@media  (max-width: 800px){
+    .hideonemoblie{
+        display:none;
+    }
+    .menu{
+    display: block;
+    }
+}
+h1{
+    font-family:myfont;
+    color: rgb(32, 41, 49);
+}
+@font-face {
+    font-family: myfont;
+    src: url(Starshines.ttf);
+}
+@font-face {
+    font-family: h1for;
+    src: url(Game\ On_PersonalUseOnly.ttf);
+}
+h2{
+    color: rgb(180, 180, 138);
+
+}
+.charac{
+    display: flex;
+    font-display: myfont;
+   gap: 0.5cm;
+   font-size: 0.6cm;
+   color: rgb(255, 255, 255);
+    
+    
+}
+.charac1{
+    background-color: chocolate;
+   margin-left: 1cm;
+   padding-left: 0.5cm;
+   padding-right: 0.5cm;
+   padding-top: 0.3;
+   padding-bottom: 0.3;
+}
+.charac2{
+    background-color: chocolate;
+   margin-left: 1cm;
+   padding-left: 0.5cm;
+   padding-right: 0.5cm;
+   padding-top: 0.3;
+   padding-bottom: 0.3;
+}
+.charac3{
+    background-color: chocolate;
+   margin-left: 1cm;
+   padding-left: 0.5cm;
+   padding-right: 0.5cm;
+   padding-top: 0.3;
+   padding-bottom: 0.3;
+}
+
+.charac4{
+    background-color: chocolate;
+   margin-left: 1cm;
+   padding-left: 0.5cm;
+   padding-right: 0.5cm;
+   padding-top: 0.3;
+   padding-bottom: 0.3;
+}
+.charac5{
+    background-color: chocolate;
+   margin-left: 1cm;
+   padding-left: 0.5cm;
+   padding-right: 0.5cm;
+   padding-top: 0.3;
+   padding-bottom: 0.3;
+}
+.charac6{
+    background-color: chocolate;
+   margin-left: 1cm;
+   padding-left: 0.5cm;
+   padding-right: 0.5cm;
+   padding-top: 0.3;
+   padding-bottom: 0.3;
+}
+.charac11{
+    background-color: rgb(210, 171, 30);
+   margin-left: 1cm;
+   padding-left: 0.5cm;
+   padding-right: 0.5cm;
+   padding-top: 0.3;
+   padding-bottom: 0.3;
+}
+.charac21{
+    background-color: rgb(210, 171, 30);
+   margin-left: 1cm;
+   padding-left: 0.5cm;
+   padding-right: 0.5cm;
+   padding-top: 0.3;
+   padding-bottom: 0.3;
+}
+.charac31{
+    background-color: rgb(210, 171, 30);
+   margin-left: 1cm;
+   padding-left: 0.5cm;
+   padding-right: 0.5cm;
+   padding-top: 0.3;
+   padding-bottom: 0.3;
+}
+
+.charac41{
+    background-color: rgb(210, 171, 30);
+   margin-left: 1cm;
+   padding-left: 0.5cm;
+   padding-right: 0.5cm;
+   padding-top: 0.3;
+   padding-bottom: 0.3;
+}
+.charac51{
+    background-color: rgb(210, 171, 30);
+   margin-left: 1cm;
+   padding-left: 0.5cm;
+   padding-right: 0.5cm;
+   padding-top: 0.3;
+   padding-bottom: 0.3;
+}
+.charac61{
+    background-color: rgb(210, 171, 30);
+   margin-left: 1cm;
+   padding-left: 0.5cm;
+   padding-right: 0.5cm;
+   padding-top: 0.3;
+   padding-bottom: 0.3;
+}
+div a{
+    text-decoration: none;
+    color: white;
+}
+div :hover{
+    animation-name: grow;
+    animation-duration: 3s;
+
+}
+@keyframes grow{
+    50%{transform: scale(1.5, 1.5)}
+}
+
